@@ -2009,8 +2009,8 @@ AudioReverbFilter:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_DryLevel: 0
-  m_Room: 0
-  m_RoomHF: 0
+  m_Room: -10000
+  m_RoomHF: -10000
   m_DecayTime: 1
   m_DecayHFRatio: 0.5
   m_ReflectionsLevel: -10000
@@ -2019,7 +2019,7 @@ AudioReverbFilter:
   m_Diffusion: 100
   m_Density: 100
   m_HFReference: 5000
-  m_RoomLF: 0
+  m_RoomLF: -10000
   m_LFReference: 250
   m_ReflectionsDelay: 0
   m_ReverbPreset: 27
