@@ -1,0 +1,66 @@
+# This .gitignore file is for Unity projects
+
+# Unity-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Auto-generated VS/VSCode files
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity Cache Server
+# If you are using Unity Cache Server, uncomment this line
+# [Cc]ache/
+
+# Unity Collaborate
+/[Uu]ser[Ss]ettings/
+
+# Ignore crash reports
+*.stacktrace
+
+# Ignore packed addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata//.bin*
+
+# Ignore Builds and local asset bundle files
+/[Bb]uilds/
+*.apk
+*.aab
+
+# Ignore .env files
+.env
+
+# Exclude files created by popular tools and OS
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# JetBrains Rider
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Logs
+*.log
+
+# Temporary files
+~$*
