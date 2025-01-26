@@ -15,4 +15,11 @@ public class Retry : MonoBehaviour
     {
         SceneManager.LoadScene(name);
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }

@@ -824,7 +824,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -846,11 +852,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 6d27002d-5590-4986-824a-2abae613b1cf
+  cloudProjectId: 00349e55-ec47-418d-9a26-084787f43b3b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Endless Runner
-  organizationId: alvinfredericco2
+  organizationId: unity_4a71f5bccf923c6f9b80
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

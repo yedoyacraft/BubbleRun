@@ -20,4 +20,12 @@ public class SwitchSCene : MonoBehaviour
         yield return new WaitForSeconds(s);
         SwitchTo(name);
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }
